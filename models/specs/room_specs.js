@@ -20,5 +20,5 @@ describe('Room', function() {
     it('should become painted', function() {
         room.paintRoom();
         assert.strictEqual(room.painted, true);
-    })
+    });
 });

@@ -16,4 +16,9 @@ describe('Paint', function() {
         const actual = paint.isEmpty();
         assert.strictEqual(actual, false);
     });
+
+    it('should empty', function() {
+        paint.emptyPaint();
+        assert.strictEqual(paint.litres, 0)
+    });
 });

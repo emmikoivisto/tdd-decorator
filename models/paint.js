@@ -7,6 +7,11 @@ Paint.prototype.isEmpty = function() {
         return true;
     };
     return false;
-}
+};
+
+
+Paint.prototype.emptyPaint = function() {
+    this.litres = 0
+};
 
 module.exports = Paint;
