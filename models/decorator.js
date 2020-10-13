@@ -1,3 +1,5 @@
-const Decorator = function(paintStock) {
-    this.paintStock = 0
+const Decorator = function() {
+    this.paintStock = [];
 };
+
+module.exports = Decorator;

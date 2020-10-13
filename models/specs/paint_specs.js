@@ -12,4 +12,8 @@ describe('Paint', function() {
         assert.strictEqual(actual, 3);
     });
 
+    it('should not be empty', function() {
+        const actual = paint.isEmpty();
+        assert.strictEqual(actual, false);
+    });
 });
